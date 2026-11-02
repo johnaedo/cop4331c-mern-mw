@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose API port
-EXPOSE 5000
+EXPOSE 6000
 
 # Set environment variables
 ENV NODE_ENV=development
